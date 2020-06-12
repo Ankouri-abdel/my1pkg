@@ -1,0 +1,43 @@
+---
+title: "Vignette of my1pkg"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{my1pkg}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.width=7,
+  fig.align='center'
+)
+```
+
+```{r packages, include=FALSE}
+library(my1pkg)
+```
+
+## Introduction
+
+`my1pkg` is my personal package. It contains one handy function that I find personally very useful!
+
+First, install and load the package, then follow this tutorial to get used to the different functionalities of this wonderful package!
+  
+## Example 1 
+  
+If you want to get the sum of `1` and `2` just do  
+
+```{r} 
+add(1,2)
+```
+
+## Example 2 
+
+If you want to get the sum of `1` and `2` and an accompanying plot just add the option `plot = TRUE` like this  
+
+```{r} 
+add(1,2, plot = TRUE)
+```

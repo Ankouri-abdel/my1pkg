@@ -1,0 +1,24 @@
+Package: my1pkg
+Title: My Personal First Package
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Anouar",
+           family = "El Ghouch",
+           role = c("aut", "cre"),
+           email = "anouar.elghouch@uclouvain.be")
+Description: This is my personal package. It contains only one function.    
+    The objective of this toy package is to see who to construct an R package.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.0
+Roxygen: list(markdown = TRUE)
+Imports: ggplot2 (>= 3.3.0)
+Depends: R (>= 2.10)
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr
+NeedsCompilation: no
+Packaged: 2020-06-12 23:20:26 UTC; abder
+Author: Anouar El Ghouch [aut, cre]
+Maintainer: Anouar El Ghouch <anouar.elghouch@uclouvain.be>
+Built: R 3.6.3; ; 2020-06-12 23:28:31 UTC; windows
